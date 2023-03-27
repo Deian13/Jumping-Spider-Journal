@@ -2,11 +2,16 @@
 
 /* logo and nav links */ 
 
-#title { 
+#logo { 
     font-family: fasthand, cursive;
     font-size: 25px;
     color:antiquewhite;
-    text-transform: uppercase;
+}
+
+#nav {
+    color:antiquewhite;
+    font-size: 100%;
+
 }
 
 body {
@@ -14,3 +19,5 @@ body {
     background-color: black;
     color: azure;
 }
+/* Footer */
+
