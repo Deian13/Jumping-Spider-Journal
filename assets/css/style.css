@@ -1,23 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Nunito+Sans:wght@300&display=swap');
 
-/* logo and nav links */ 
-
-#logo { 
-    font-family: fasthand, cursive;
-    font-size: 25px;
-    color:antiquewhite;
-}
-
-#nav {
-    color:antiquewhite;
-    font-size: 100%;
-
-}
 
 body {
     font-family: nunito sans, sans-serif;
     background-color: black;
     color: azure;
+}
+
+h1, h2 { 
+    color: antiquewhite;
+}
+
+/* logo and nav links */ 
+
+#logo { 
+    font-family: fasthand, cursive;
+    font-size: 300%;
+    color:antiquewhite;
+    float: left;
+}
+
+h1, h2 { 
+    color: antiquewhite;
+}
+
+#nav, #logo {
+    line-height: 50px;
+}
+#nav {
+    color:antiquewhite;
+    font-size: 120%;
+    letter-spacing: 4px;
+}
+
+#nav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav a { 
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+#nav a:hover {
+    border-bottom: 1px solid antiquewhite;
+}
+
+#logo a:hover {
+    border-bottom: 1px antiquewhite;
+}
+
+
+#main-image {
+    background: url('../images/pexels-photo-762888.jpeg') no-repeat center center;
 }
 /* Footer */
 
