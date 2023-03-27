@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Nunito+Sans:wght@300&display=swap');
 
-header { 
+/* logo and nav links */ 
+
+#title { 
     font-family: fasthand, cursive;
+    font-size: 25px;
+    color:antiquewhite;
+    text-transform: uppercase;
 }
 
 body {
