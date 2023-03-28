@@ -52,9 +52,13 @@ h1, h2 {
     border-bottom: 1px antiquewhite;
 }
 
+/* hero image */
 
-#main-image {
-    background: url('../images/pexels-photo-762888.jpeg') no-repeat center center;
+.hero-image {
+    height: 482px;
+    background: url('../images/gary-yost-a32PhZjnDnI-unsplash.jpg') no-repeat center center;
+    width: 100%;
 }
+
 /* Footer */
 
