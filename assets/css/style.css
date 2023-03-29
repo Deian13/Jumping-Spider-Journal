@@ -15,6 +15,10 @@ body {
     padding-right: 200px;
     }
 
+#pet {
+    margin-bottom: 200px;
+}
+
 /* logo and nav links */ 
 
 #logo { 
@@ -63,7 +67,7 @@ a:hover {
     height: 600px;
     background: url('../images/timothy-dykes-2\(1\).jpg') no-repeat center center;
     width: 100%;
-
+    background-size: cover;
 }
 
 #spider1 {
@@ -74,6 +78,12 @@ a:hover {
     padding-bottom: 5%;
 }
 
+/* Sightings */
+
+#feasting-spooder { 
+    margin-bottom: 200px
+}
+
 
 /* pros and cons allignment */
 
@@ -81,9 +91,37 @@ a:hover {
     float: left;
     width: 50%;
     text-align: left;
+    margin-bottom: 200px
 }
 .pro-con-titles { 
     text-align: center;
+}
+
+/* Fun Facts */
+
+#spooder-legs {
+    margin-bottom: 200px
+}
+
+/* Pet-Care */
+
+#habitat {
+    width: 50%;
+    text-align: left;
+    float: left;
+    margin: 2%;
+}
+
+#enclosure { 
+    text-align: right;
+    padding-top: 20px;
+    margin: 2%;
+}
+
+/* Sign Up */
+
+#sign-up-low { 
+    margin-bottom: 200px
 }
 
 /* Footer */
@@ -91,11 +129,11 @@ a:hover {
 footer { 
     text-align: center;
     color: antiquewhite;
-    position: fixed;
     width: 100%;
     background-color: rgb(44, 44, 44);
     left: 0;
     bottom: 0;
+    position: fixed;
 }
 
 .social-media {
