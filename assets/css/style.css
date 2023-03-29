@@ -91,5 +91,32 @@ a:hover {
 footer { 
     text-align: center;
     color: antiquewhite;
-    height: 150px
+    position: fixed;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    left: 0;
+    bottom: 0;
+}
+
+.social-media {
+    text-align: center;
+    padding-right: 460px;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 190%;
+    margin: 1%;
+    color: antiquewhite;
+    padding: 0;
+}
+
+#footer-logo { 
+    text-align: left;
+    float: left;
+    padding-left: 70px;
+    padding-top: 15px;
 }
