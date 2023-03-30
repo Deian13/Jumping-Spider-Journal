@@ -46,20 +46,32 @@
     </section>
     
     <section id="sign-up" class="body-padding">
-        <h2>Sign Up!</h2>
-        <br>
-        
-        <form>
-            <label for="email">Email Address</label>
-            <input type="email" name="email"> 
+        <h2>Sign up for our free newsletter subscription!</h2>
+        <form method="post" class="signup_form">
 
-            <label for="pass">Password</label>
-            <input type="password" name="pass">
+            <label for="full_name">First Name</label><br>
+            <input type="text" name="first_name" id="fname" required class="text-input"><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="last_name" required class="text-input"><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" name="email_address" id="email" required class="text-input"><br>
+
+            <input type="checkbox" id="offers" name="newsletter_type" value="offers" required>
+            <label for="offers">Petshop Promotions</label><br>
+
+            <input type="checkbox" id="spiders" name="newsletter_type" value="spiders" required>
+            <label for="spiders">New Facts about Spiders</label><br>
+
+            <input class="join-button" type="submit" value="Subscribe">
+
         </form>
 
-    </section>
+        <br>
 
-    <section id="sign-up-low"></section>
+        <section id="signup_image">
+        </section>
 
     <footer>
         <h1 id="footer-logo">Join us on Social Media!</h1>
