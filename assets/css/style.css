@@ -29,6 +29,10 @@ body {
     padding-left: 30px;
 }
 
+#logo:hover {
+    transform: translateY(-10px);
+}
+
 h1, h2 { 
     color: antiquewhite;
 }
@@ -40,6 +44,15 @@ h1, h2 {
     color:antiquewhite;
     font-size: 120%;
     letter-spacing: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 2s ease-out;
+}
+
+#nav a:hover,
+#nav a:focus {
+  background-color: white;
+  color: rgb(26, 24, 24);
 }
 
 #nav li {
@@ -85,6 +98,8 @@ a:hover {
 }
 
 
+
+
 /* pros and cons allignment */
 
 .pros-cons {
@@ -126,6 +141,10 @@ a:hover {
     padding-left: 50px;
 }
 
+#contents {
+    text-align: left;
+    padding-left: 12%;
+}
 
 /* Sign Up */
 
@@ -159,6 +178,10 @@ footer {
     margin: 1%;
     color: antiquewhite;
     padding: 0;
+}
+
+.social-media i:hover {
+    transform: translateY(-10px);
 }
 
 #footer-logo { 
