@@ -122,6 +122,11 @@ a:hover {
     list-style-type: none;
 }
 
+#food-water-care h1 {
+    padding-left: 50px;
+}
+
+
 /* Sign Up */
 
 #sign-up-low { 
