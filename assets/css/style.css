@@ -118,6 +118,10 @@ a:hover {
     margin: 2%;
 }
 
+#food-water-care li {
+    list-style-type: none;
+}
+
 /* Sign Up */
 
 #sign-up-low { 
