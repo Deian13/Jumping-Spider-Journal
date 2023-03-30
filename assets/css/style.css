@@ -5,7 +5,7 @@ body {
     font-family: nunito sans, sans-serif;
     background-color: rgb(26, 24, 24);
     color: azure;
-    font-size: larger;
+    font-size: 130%;
     text-align: center;
     line-height: 35px;
 }
@@ -154,6 +154,7 @@ a:hover {
 table, th, td {
     border: 1.5px solid antiquewhite;
     border-collapse: collapse;
+    padding: 5%;
 }
 
 tr:hover {background-color: #656666;}
