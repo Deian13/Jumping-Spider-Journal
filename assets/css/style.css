@@ -263,7 +263,7 @@ footer {
         height:200px;
         width: 300px;
     }
+    .logo img {
+        max-width: 150px;
+    }
 }
-
-
-    
