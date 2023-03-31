@@ -274,4 +274,12 @@ footer {
     #signup-image {
         display: none;
     }
+    #nav li {
+        display: block;
+        text-align: center;
+        margin: 0; 
+        float: none;
+    }
+
+
     }
