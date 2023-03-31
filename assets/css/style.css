@@ -240,8 +240,8 @@ footer {
 
 
 /* For medium screen sizes from 950px and down */
-@media screen and (max-width: 950px) { 
-
+@media screen and (max-width: 950px) 
+{
     #spider1 { width: 60% ;
     height: 80%;}
     body {
@@ -251,10 +251,16 @@ footer {
         float: none;
     }
 
-    .footer {
+    #footer {
         padding: 20px 10px;
-        font-size: 14px;
+        font-size: 15px;
     }
+    
+    .body-padding {
+        padding-left: 0%;
+        padding-bottom: 0%;
+    }
+
     #spider1 {
         display: none;
     }
@@ -281,8 +287,9 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px; }
-
+    
 }
+
 
 /*For small screen sizes 800px and down*/
 @media screen and (max-width: 800px) { }
