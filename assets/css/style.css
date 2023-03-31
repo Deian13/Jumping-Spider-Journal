@@ -5,7 +5,7 @@ body {
     font-family: nunito sans, sans-serif;
     background-color: rgb(26, 24, 24);
     color: azure;
-    font-size: 130%;
+    font-size: 150%;
     text-align: center;
     line-height: 35px;
 }
@@ -241,13 +241,14 @@ footer {
 
 /* For medium screen sizes from 950px and down */
 @media screen and (max-width: 950px) { 
+
     #spider1 { width: 60% ;
     height: 80%;}
     body {
         font-size: 14px;
         text-align: left;
-        float: left;
         overflow-x: hidden;
+        float: none;
     }
 
     .footer {
@@ -274,12 +275,15 @@ footer {
         float: none;
     }
 
+    #nav {
+        clear: right;
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px; }
 
-    }
 }
 
-
-
 /*For small screen sizes 800px and down*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) { }
     
