@@ -109,6 +109,9 @@ The live link can be found here - https://deian13.github.io/Jumping-Spider-Journ
 
 - https://xtraordinarypets.com/jumping-spiders-beginners-care-guide/
 
+- Biggest part of the website is built upon knowledge I gained from the Code Institute.
+
+- Special mentions go to tutors from Code Institute and to articles from Stackoverflow for helping me get the <img src> elements right, fixing the body padding for body text and for helping me get the right responsive design for navigation bar and respectively the fixed footer and get the navbar menu hover effect right.
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
