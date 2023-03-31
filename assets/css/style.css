@@ -253,6 +253,9 @@ footer {
         font-size: 14px;
         text-align: left;
         float: left;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        overflow-x: hidden;
     }
 
     .footer {
@@ -265,5 +268,10 @@ footer {
     }
     .logo img {
         max-width: 150px;
+    }
+    #fun-facts { 
+        padding-left: 2%;
+        padding-right: 2%;
+
     }
 }
