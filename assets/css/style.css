@@ -233,12 +233,17 @@ footer {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     hr { display: none;}
+    #spider1 { width: 50% ;
+        height: 70%; }
 
 }
 
 
 /* For medium screen sizes from 950px and down */
-@media screen and (max-width: 950px) { }
+@media screen and (max-width: 950px) { 
+    #spider1 { width: 60% ;
+    height: 80%;}
+}
 
 
 
