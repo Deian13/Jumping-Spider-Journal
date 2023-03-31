@@ -243,18 +243,11 @@ footer {
 @media screen and (max-width: 950px) { 
     #spider1 { width: 60% ;
     height: 80%;}
-}
-
-
-
-/*For small screen sizes 800px and down*/
-@media screen and (max-width: 800px) {
     body {
         font-size: 14px;
         text-align: left;
         float: left;
         overflow-x: hidden;
-        max-width: 100%;
     }
 
     .footer {
@@ -283,3 +276,10 @@ footer {
 
 
     }
+}
+
+
+
+/*For small screen sizes 800px and down*/
+@media screen and (max-width: 800px) {
+    
