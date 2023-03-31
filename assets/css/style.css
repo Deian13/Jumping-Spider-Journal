@@ -83,6 +83,10 @@ a:hover {
     background-size: cover;
 }
 
+.hero-image > h1 {
+    display: none;
+}
+
 #spider1 {
     border-radius: 50%;
     height: 550px;
@@ -306,16 +310,12 @@ footer {
      }
 
      .make-smaller {
-        height: 350px;
-        width: 430px;
+        height: 320px;
+        width: 400px;
      }
      #video {
         height: 250px;
         width: 150px;
      }
 }
-
-
-/*For small screen sizes 800px and down*/
-@media screen and (max-width: 800px) { }
     
