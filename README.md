@@ -58,7 +58,17 @@ This is a website for spider lovers. Users can come here to learn about the jump
 ## Testing 
 
 - Tested the website on my mobile phone & from 2 different browsers (Google Chrome and Bing)
+- The website has been tested using lighthouse devtool
 
+![Lighthouse Home](assets/read.me/lighthouse.home.png)
+
+![Lighthouse Sightings](assets/read.me/slighthouse.sightings.png)
+
+![Lighthouse Pet-care](assets/read.me/lighthouse.pet.care.png)
+
+![Lighthouse Sign Up](assets/read.me/lighthouse.signup.png)
+
+![Lighthouse Fun Facts](assets/read.me/lighthouse.fun.facts.png)
 ### Validator Testing 
 
 - HTML
@@ -104,6 +114,8 @@ The live link can be found here - https://deian13.github.io/Jumping-Spider-Journ
 
 ### Media
 
--
-- 
+- The pcitures used were taken from Pexels and Unsplash
+
+- The video used belongs to Youtube channel @tarantulakat
+
 
