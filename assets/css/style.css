@@ -292,12 +292,27 @@ footer {
         float: right;
         margin-top: 360px;
      }
+     
+     .social-media { 
+        display: inline;
+        text-align: center;
+        padding-right: 25px;
+        font-size: medium
+
+     }
+
+     #footer-logo {
+        display: none;
+     }
 
      .make-smaller {
         height: 350px;
         width: 430px;
      }
-    
+     #video {
+        height: 250px;
+        width: 150px;
+     }
 }
 
 
