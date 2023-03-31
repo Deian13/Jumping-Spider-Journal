@@ -227,3 +227,21 @@ footer {
     padding-left: 70px;
     padding-top: 15px;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    hr { display: none;}
+
+}
+
+
+/* For medium screen sizes from 950px and down */
+@media screen and (max-width: 950px) { }
+
+
+
+/*For small screen sizes 800px and down*/
+@media screen and (max-width: 800px) {}
+    
