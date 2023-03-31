@@ -264,7 +264,8 @@ footer {
     }
 
     #spider1 {
-        display: none;
+        height: 250px;
+        width: 350px;
     }
     .logo img {
         max-width: 150px;
