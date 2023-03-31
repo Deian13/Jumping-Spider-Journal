@@ -251,6 +251,8 @@ footer {
 @media screen and (max-width: 800px) {
     body {
         font-size: 14px;
+        text-align: left;
+        float: left;
     }
 
     .footer {
