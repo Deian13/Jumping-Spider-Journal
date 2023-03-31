@@ -292,6 +292,11 @@ footer {
         float: right;
         margin-top: 360px;
      }
+
+     .make-smaller {
+        height: 350px;
+        width: 430px;
+     }
     
 }
 
